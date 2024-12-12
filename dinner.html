@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dinner</title>
+	<style>
+		body{
+			background-color: grey;
+		
+		}
+		button{
+			background-color: greenyellow;	
+		}
+		li{
+             display: block;
+            padding: 8px 16px;
+        }
+        h1, h2{
+        	justify-content: center;
+        	text-align: center;
+
+
+        th, tr{
+        	padding: 15px;
+        }
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+
+			img{
+				width: 50px;
+				height: 50px;
+			
+			}
+
+
+
+	</style>
+</head>
+<body>
+		<nav class="navabar navbar-expand-md bg-dark navbar-dark fixed top ">
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>	
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="breakfast.html">Breakfast</a>
+				</li>
+			<li class="nav-item">
+					<a class="nav-link" href="lunch.html">Lunch</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="dinner.html">Dinner</a>
+				</li>
+			<li class="nav-item">
+					<a class="nav-link" href="Form.html">Submit Recipe</a>
+				</li>
+			</ul>
+
+			<form class="d-flex">
+				<input class="form-content" type="text" placeholder="search...">
+				<button class="btn-btn-success" type="button">Search</button>
+			</form>
+		</div>
+	</nav>
+
+
+	<div class="contianer">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://tse4.mm.bing.net/th?id=OIP.2FhXIw0nViNYFTOoi7uNxQHaE7&pid=Api&P=0&h=180" width="300px"; height="300px">
+			<button class="btn btn-dark mt-3" onclick="show('chi')">Chicken BBQ</button>
+                <div id="chi" class="mt-3" style="display: none;">
+                    <table class="table table-bordered">
+                        <thead class="table-dark">
+                        	<tr>
+                        	<th>Ingredients: 3 pieces chicken leg quarters 
+                        		<br>
+                        		1 cup of sprite
+                        		<br>
+                        		3 tbpns calamansi juice
+                        		<br>
+                        		3 tbpns soy sauce
+                        		<br>
+                        		2 tbpns oyster sauce
+                        		<br>
+                        		4 tbpns ketchup
+                        		<br>
+                        		6 cloves garlic, minced
+                        		1 tbpns brown sugar
+                        	</th>
+                        	
+
+                        </tr>
+                        <tr>
+                        	<th></th>
+                        </tr>
+                        <tr>
+                        	<th>Prepare pork belly and cut into pieces. Mix with pineapple juice and soy sauce.
+                        		<br>
+                        		After, reserve. Sear the cuts using high heat until oil is rendered, flip, then contain the pork.
+                        		<br>
+                        		Sauté the onions and garlic for a few minutes. Add the seared pork belly and sauté.
+                        		<br>
+                        		Add the reserved marinade. Add the black pepper, sugar and bay leaves. Stir until well-combined. Cover the pan and let it simmer using medium-low heat until the pork is tender. Stir occasionally while simmering.
+                        		<br>
+                        		Check the tenderness of the pork using the fork test. Once tender, add the pineapple chunks. Season with salt. Stir well to combine. Simmer for a few minutes until the sauce is reduced.
+                        		<br>
+                        		Transfer the pork hamonado in a serving plate and serve with hot steaming rice.
+                        	</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div></div></div>
+
+            	<script>	
+        function show(id) {
+            const chi = document.getElementById(id);
+            chi.style.display = chi.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+    <br><br><br>
+
+
+    <div class="contianer3">
+		<div class="row3">
+			<div class="col-md-4">
+				<img src="https://www.kawalingpinoy.com/wp-content/uploads/2013/01/sinigang-baboy-7-768x1024.jpg" height="300px"; width="300px">
+    <button class="btn btn-dark mt-3" onclick="show('pork')">Pork sinigang</button>
+                <div id="pork" class="mt-3" style="display: none;">
+                    <table class="table table-bordered">
+                        <thead class="table-dark">
+                        	<tr>
+                        	<th>Ingredients: 
+                        		Pork
+                        		<br> 
+                        		Tomatoes
+                        		<br>
+                        		Onion
+                        		<br>
+                        		Fish sauce
+                        		<br>
+                        		Gabi
+                        		<br>
+                        		Radish
+                        		<br>
+                        		Vegetables
+                        		<br>
+                        		Tamarind
+                        		<br>
+                        		Banana
+                        	</th>
+                        	
+
+                        </tr>
+                        <tr>
+                        	<th>Instructions: Wash tamarind pods under cold, running water to remove any grit or dirt from the skins.
+                        		<br>
+                        		Place in a saucepan with about 1 cup water and bring to a boil. Cook for about 4 to 5 minutes until soft, and the outer skins begin to burst.
+                        		<br>
+                        		Using a fork, mash the tamarinds to release the pulp.
+                        		<br>
+                        		Place the tamarind and liquid in a fine-mesh strainer set over a bowl. Continue to mash with a fork, returning some of the liquid into the strainer once or twice to fully extract the juice.
+                        		<br>
+                        		Discard seeds and skins. Pour tamarind juice into the pot.
+
+                        	</th>
+                        </tr>
+                        <tr>
+                        	<th>Signangag is a pinoy meal that is essentially garlic fried rice with meat on the side, this can be cooked during the weekend or meal prepped the night before you have this breakfast.</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+                        	<script>
+        function show(id) {
+            const pork = document.getElementById(id);
+           pork.style.display = pork.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+
+
+    
